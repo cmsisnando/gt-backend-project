@@ -7,7 +7,6 @@ module.exports = {
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   
-  // Adicione esta linha para uma saída de teste mais limpa
   logging: false, 
   
   define: {
