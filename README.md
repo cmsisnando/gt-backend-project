@@ -53,3 +53,7 @@ Modo desenvolvimento:
 Modo produção:
 
 `npm start`
+
+## Autora
+
+Desenvolvido por [Claudia Maria](https://github.com/cmsisnando) ✨
