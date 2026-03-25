@@ -15,6 +15,7 @@ Projeto de Backend desenvolvido no curso Geracao Tech 3.0.
 Clone o repositório:
 
 `git clone https://github.com/cmsisnando/gt-backend-project`
+
 `cd gt-backend-project`
 
 Instale as dependências:
@@ -26,13 +27,21 @@ Instale as dependências:
 Crie um arquivo .env na raiz do projeto:
 
 PORT=
+
 JWT_SECRET=
+
 JWT_EXPIRES_IN=
+
 DB_HOST=
+
 DB_USER=
+
 DB_PASSWORD=
+
 DB_NAME=
+
 DB_PORT=
+
 DB_DIALECT=
 
 ## Executando o Projeto
