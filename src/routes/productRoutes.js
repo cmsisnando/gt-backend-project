@@ -14,7 +14,7 @@ const router = Router();
 
 /**
  * @swagger
- * /produto/pesquisa:
+ * /v1/produto/pesquisa:
  *   get:
  *     tags:
  *       - Produtos
@@ -68,7 +68,7 @@ router.get('/pesquisa', productController.search);
 
 /**
  * @swagger
- * /produto/{id}:
+ * /v1/produto/{id}:
  *   get:
  *     tags:
  *       - Produtos
@@ -93,7 +93,7 @@ router.get('/:id', productController.getById);
 
 /**
  * @swagger
- * /produto:
+ * /v1/produto:
  *   post:
  *     security:
  *       - bearerAuth: []
@@ -161,7 +161,7 @@ router.post('/', authMiddleware, productController.create);
 
 /**
  * @swagger
- * /produto/{id}:
+ * /v1/produto/{id}:
  *   put:
  *     security:
  *       - bearerAuth: []
@@ -222,7 +222,7 @@ router.put('/:id', authMiddleware, productController.update);
 
 /**
  * @swagger
- * /produto/{id}:
+ * /v1/produto/{id}:
  *   delete:
  *     security:
  *       - bearerAuth: []
